@@ -8,6 +8,9 @@ on:
     branches: [ '**' ]
     paths: [ '**' ]
 
+  workflow_dispatch:
+    
+
 jobs:
   unittests:
     runs-on: ${{ matrix.os }}
